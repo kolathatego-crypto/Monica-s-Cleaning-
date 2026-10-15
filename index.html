@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monica's Cleaning Services | Professional Home Cleaning</title>
+    <title>Monica's Cleaning & Laundry Services | Professional Care</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +52,7 @@
         }
 
         header h1 {
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             font-weight: 800;
             letter-spacing: -0.02em;
             margin-bottom: 6px;
@@ -122,7 +122,7 @@
         /* Pricing Cards Grid */
         .pricing-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 12px;
             margin-bottom: 24px;
         }
@@ -267,6 +267,8 @@
             gap: 10px;
             font-size: 0.95rem;
             font-weight: 600;
+            text-decoration: none;
+            color: white;
         }
 
         .contact-box i {
@@ -311,8 +313,8 @@
 <body>
 
     <header>
-        <h1>Monica's Cleaning Services</h1>
-        <p>Professional, Detailed & Ethics-First Cleaning</p>
+        <h1>Monica's Cleaning & Laundry Services</h1>
+        <p>Professional, Detailed & Ethics-First Care</p>
     </header>
 
     <div class="container">
@@ -326,6 +328,11 @@
         <!-- Pricing Section -->
         <h2 class="section-title">Transparent Pricing</h2>
         <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Laundry</h3>
+                <div class="price">R250</div>
+                <div class="desc">Per Basket</div>
+            </div>
             <div class="price-card">
                 <h3>Per Room</h3>
                 <div class="price">R300</div>
@@ -344,8 +351,12 @@
         </div>
 
         <!-- What We Clean -->
-        <h2 class="section-title">Areas We Clean</h2>
+        <h2 class="section-title">Services We Offer</h2>
         <div class="features-card">
+            <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div><strong>Laundry Service:</strong> Washing, drying & neat folding per basket (R250).</div>
+            </div>
             <div class="feature-item">
                 <i class="fa-solid fa-circle-check"></i>
                 <div><strong>Kitchen:</strong> Countertops, appliances, stove surfaces & exterior cupboards.</div>
@@ -380,8 +391,8 @@
                 <span>Microfiber & Mops</span>
             </div>
             <div class="supply-item">
-                <i class="fa-solid fa-wind"></i>
-                <span>Vacuum & Scrubbers</span>
+                <i class="fa-solid fa-shirt"></i>
+                <span>Laundry Care Supplies</span>
             </div>
         </div>
 
@@ -390,14 +401,14 @@
             <h2>Book Your Schedule Today</h2>
             
             <div class="contact-methods">
-                <div class="contact-box whatsapp">
+                <a href="https://wa.me/27798200051" class="contact-box whatsapp">
                     <i class="fa-brands fa-whatsapp"></i>
                     <span>WhatsApp: 079 820 0051</span>
-                </div>
-                <div class="contact-box calls">
+                </a>
+                <a href="tel:0749045146" class="contact-box calls">
                     <i class="fa-solid fa-phone"></i>
                     <span>Calls Only: 074 904 5146</span>
-                </div>
+                </a>
             </div>
 
             <div class="location-info">
@@ -409,7 +420,7 @@
     </div>
 
     <footer>
-        &copy; 2026 Monica's Cleaning Services. All rights reserved.
+        &copy; 2026 Monica's Cleaning & Laundry Services. All rights reserved.
     </footer>
 
 </body>
